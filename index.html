@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel BZ</title>
+  <link rel='icon' href='img/favicon.png' type='image/x-icon'/ >
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .has-background-image {
+      background-image: url('./img/5.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <div class="content">
+          <h1 style="padding-top: 1rem;">Hotel Kronenhof</h1>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  </nav>
+  <section class="hero is-large has-background-image">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-1 has-text-white">Come visit us</h1>
+        <button class="button is-dark is-inverted is-outlined" style="font-weight: 600;">
+          Book your holidays
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="title" style="margin-bottom: 3rem;">Contact Info</h2>
+      <p class="subtitle" style="margin-bottom: 5rem;">Here are our contacts</p>
+      <nav class="level">
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Address</p>
+            <p class="title is-6">Corso della Libertà 117, 39100 <br> Bolzano BZ</p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Phone</p>
+            <p class="title is-6">0472 123456</p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Email</p>
+            <p class="title is-6">
+              <a href="mailto:email@example.org">email@example.org</a>
+            </p>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="title" style="margin-bottom: 3rem;">How to reach us </h2>
+      <p class="subtitle">There are several means of transport that you can use to come visit use:</p>
+      <div class="content">
+        <ul>
+          <li>Train</li>
+          <li>Car</li>
+          <li>Buses</li>
+        </ul>
+      </div>
+      <p class="subtitle">
+        <strong>Do you want to be more sustainable?</strong> Use public transport to reach Bolzano and then use
+        bikesharing and carsharing to travel around South Tyrol.
+        <br>
+        Here's a map you can use to find the nearest cars and bike stations:
+      </p>
+      <script src="lib/map_widget.min.js"></script>
+      <e-mobility-map-widget logo="https://www.greenmobility.bz.it/typo3conf/ext/interho/Resources/Public/Img/logo.png">
+      </e-mobility-map-widget>
+    </div>
+  </section>
+  <footer class="footer">
+      <div class="content">
+        <div class="columns">
+          <div class="column">
+            <p>
+              Hotel Kronenhof
+            </p>
+            <p class="is-size-7">
+              Corso della Libertà, 117, 39100 Bolzano BZ
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script type="text/javascript" src="lib/main.js"></script>
+</body>
+
+</html>
